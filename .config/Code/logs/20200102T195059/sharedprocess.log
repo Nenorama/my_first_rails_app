@@ -1,0 +1,8 @@
+[2020-01-02 19:51:03.046] [sharedprocess] [info] main {"machineId":"58046c6c67ce354623bbf19b71ea31e5a6ad45fb66629b4b0e826b97286f0b64","windowId":2}
+[2020-01-02 19:51:43.021] [sharedprocess] [info] Starting to clean up unused language packs.
+[2020-01-02 19:54:32.862] [sharedprocess] [info] Installing extension: docter60.vscode-terminal-for-ubuntu
+[2020-01-02 19:54:33.424] [sharedprocess] [info] Downloaded extension: docter60.vscode-terminal-for-ubuntu /tmp/4bb0976a-29d5-48fb-be4e-590a2bcc545a
+[2020-01-02 19:54:33.494] [sharedprocess] [info] Extracted extension to /home/nenad/.vscode/extensions/.docter60.vscode-terminal-for-ubuntu-0.0.2: docter60.vscode-terminal-for-ubuntu
+[2020-01-02 19:54:33.495] [sharedprocess] [info] Renamed to /home/nenad/.vscode/extensions/docter60.vscode-terminal-for-ubuntu-0.0.2
+[2020-01-02 19:54:33.496] [sharedprocess] [info] Installation completed. docter60.vscode-terminal-for-ubuntu
+[2020-01-02 19:54:33.499] [sharedprocess] [info] Extensions installed successfully: docter60.vscode-terminal-for-ubuntu

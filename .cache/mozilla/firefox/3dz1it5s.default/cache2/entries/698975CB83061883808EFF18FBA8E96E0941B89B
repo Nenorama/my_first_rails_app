@@ -1,0 +1,169 @@
+var OA_output = new Array(); 
+OA_output['1'] = '';
+OA_output['1'] += "<"+"img src=\'http://oglasicdn.novilist.hr/www/images/58427417b3c84af0a28a6b398854a4ea.png\' width=\'728\' height=\'90\' alt=\'\' title=\'\' border=\'0\' /><"+"div id=\'beacon_7a076493da\' style=\'position: absolute; left: 0px; top: 0px; visibility: hidden;\'><"+"img src=\'http://oglasicdn.novilist.hr/www/delivery/lg.php?bannerid=3215&amp;campaignid=2621&amp;zoneid=1&amp;loc=http%3A%2F%2Fwww.novilist.hr%2FVijesti%2FRegija%2Fnode_1589%2FUvala-Grabrova-uskoro-ce-dobiti-novi-izgled-i-sadrzaje&amp;referer=https%3A%2F%2Fwww.google.com%2F&amp;cb=7a076493da\' width=\'0\' height=\'0\' alt=\'\' style=\'width: 0px; height: 0px;\' /><"+"/div>\n";
+OA_output['2'] = '';
+OA_output['2'] += "<"+"div id=\'beacon_e73197f939\' style=\'position: absolute; left: 0px; top: 0px; visibility: hidden;\'><"+"img src=\'http://oglasicdn.novilist.hr/www/delivery/lg.php?bannerid=0&amp;campaignid=0&amp;zoneid=2&amp;loc=http%3A%2F%2Fwww.novilist.hr%2FVijesti%2FRegija%2Fnode_1589%2FUvala-Grabrova-uskoro-ce-dobiti-novi-izgled-i-sadrzaje&amp;referer=https%3A%2F%2Fwww.google.com%2F&amp;cb=e73197f939\' width=\'0\' height=\'0\' alt=\'\' style=\'width: 0px; height: 0px;\' /><"+"/div>\n";
+OA_output['3'] = '';
+OA_output['3'] += "<"+"div id=\'beacon_1cdc249c92\' style=\'position: absolute; left: 0px; top: 0px; visibility: hidden;\'><"+"img src=\'http://oglasicdn.novilist.hr/www/delivery/lg.php?bannerid=0&amp;campaignid=0&amp;zoneid=3&amp;loc=http%3A%2F%2Fwww.novilist.hr%2FVijesti%2FRegija%2Fnode_1589%2FUvala-Grabrova-uskoro-ce-dobiti-novi-izgled-i-sadrzaje&amp;referer=https%3A%2F%2Fwww.google.com%2F&amp;cb=1cdc249c92\' width=\'0\' height=\'0\' alt=\'\' style=\'width: 0px; height: 0px;\' /><"+"/div>\n";
+OA_output['4'] = '';
+OA_output['4'] += "<"+"div id=\"novilist_300x250_v3\"><"+"script >\n";
+OA_output['4'] += "googletag.cmd.push(function() { googletag.display(\'novilist_300x250_v3\'); });\n";
+OA_output['4'] += "<"+"/script><"+"/div><"+"div id=\'beacon_66b05eef75\' style=\'position: absolute; left: 0px; top: 0px; visibility: hidden;\'><"+"img src=\'http://oglasicdn.novilist.hr/www/delivery/lg.php?bannerid=1653&amp;campaignid=1010&amp;zoneid=4&amp;loc=http%3A%2F%2Fwww.novilist.hr%2FVijesti%2FRegija%2Fnode_1589%2FUvala-Grabrova-uskoro-ce-dobiti-novi-izgled-i-sadrzaje&amp;referer=https%3A%2F%2Fwww.google.com%2F&amp;cb=66b05eef75\' width=\'0\' height=\'0\' alt=\'\' style=\'width: 0px; height: 0px;\' /><"+"/div>\n";
+OA_output['5'] = '';
+OA_output['5'] += "<"+"div id=\'beacon_977ec12a1e\' style=\'position: absolute; left: 0px; top: 0px; visibility: hidden;\'><"+"img src=\'http://oglasicdn.novilist.hr/www/delivery/lg.php?bannerid=0&amp;campaignid=0&amp;zoneid=5&amp;loc=http%3A%2F%2Fwww.novilist.hr%2FVijesti%2FRegija%2Fnode_1589%2FUvala-Grabrova-uskoro-ce-dobiti-novi-izgled-i-sadrzaje&amp;referer=https%3A%2F%2Fwww.google.com%2F&amp;cb=977ec12a1e\' width=\'0\' height=\'0\' alt=\'\' style=\'width: 0px; height: 0px;\' /><"+"/div>\n";
+OA_output['6'] = '';
+OA_output['6'] += "<"+"div id=\'beacon_cdc1055db8\' style=\'position: absolute; left: 0px; top: 0px; visibility: hidden;\'><"+"img src=\'http://oglasicdn.novilist.hr/www/delivery/lg.php?bannerid=0&amp;campaignid=0&amp;zoneid=6&amp;loc=http%3A%2F%2Fwww.novilist.hr%2FVijesti%2FRegija%2Fnode_1589%2FUvala-Grabrova-uskoro-ce-dobiti-novi-izgled-i-sadrzaje&amp;referer=https%3A%2F%2Fwww.google.com%2F&amp;cb=cdc1055db8\' width=\'0\' height=\'0\' alt=\'\' style=\'width: 0px; height: 0px;\' /><"+"/div>\n";
+OA_output['7'] = '';
+OA_output['7'] += "<"+"div id=\'beacon_8d5c88fa4f\' style=\'position: absolute; left: 0px; top: 0px; visibility: hidden;\'><"+"img src=\'http://oglasicdn.novilist.hr/www/delivery/lg.php?bannerid=0&amp;campaignid=0&amp;zoneid=7&amp;loc=http%3A%2F%2Fwww.novilist.hr%2FVijesti%2FRegija%2Fnode_1589%2FUvala-Grabrova-uskoro-ce-dobiti-novi-izgled-i-sadrzaje&amp;referer=https%3A%2F%2Fwww.google.com%2F&amp;cb=8d5c88fa4f\' width=\'0\' height=\'0\' alt=\'\' style=\'width: 0px; height: 0px;\' /><"+"/div>\n";
+OA_output['8'] = '';
+OA_output['8'] += "<"+"div id=\"novilist_sidebar_mf\"><"+"script >\n";
+OA_output['8'] += "googletag.cmd.push(function() { googletag.display(\'novilist_sidebar_mf\'); });\n";
+OA_output['8'] += "<"+"/script><"+"/div><"+"div id=\'beacon_7d46249aed\' style=\'position: absolute; left: 0px; top: 0px; visibility: hidden;\'><"+"img src=\'http://oglasicdn.novilist.hr/www/delivery/lg.php?bannerid=1652&amp;campaignid=1010&amp;zoneid=8&amp;loc=http%3A%2F%2Fwww.novilist.hr%2FVijesti%2FRegija%2Fnode_1589%2FUvala-Grabrova-uskoro-ce-dobiti-novi-izgled-i-sadrzaje&amp;referer=https%3A%2F%2Fwww.google.com%2F&amp;cb=7d46249aed\' width=\'0\' height=\'0\' alt=\'\' style=\'width: 0px; height: 0px;\' /><"+"/div>\n";
+OA_output['9'] = '';
+OA_output['9'] += "<"+"img src=\'http://oglasicdn.novilist.hr/www/images/98cdd3768f0155ea93c6114831da4c13.jpg\' width=\'300\' height=\'600\' alt=\'\' title=\'\' border=\'0\' /><"+"div id=\'beacon_2a4cea7a04\' style=\'position: absolute; left: 0px; top: 0px; visibility: hidden;\'><"+"img src=\'http://oglasicdn.novilist.hr/www/delivery/lg.php?bannerid=3235&amp;campaignid=2634&amp;zoneid=9&amp;loc=http%3A%2F%2Fwww.novilist.hr%2FVijesti%2FRegija%2Fnode_1589%2FUvala-Grabrova-uskoro-ce-dobiti-novi-izgled-i-sadrzaje&amp;referer=https%3A%2F%2Fwww.google.com%2F&amp;cb=2a4cea7a04\' width=\'0\' height=\'0\' alt=\'\' style=\'width: 0px; height: 0px;\' /><"+"/div>\n";
+OA_output['10'] = '';
+OA_output['10'] += "<"+"a href=\'http://oglasicdn.novilist.hr/www/delivery/ck.php?oaparams=2__bannerid=3212__zoneid=10__cb=6f5704bc04__oadest=https%3A%2F%2F120godina.novilist.hr%2F\' target=\'_blank\'><"+"img src=\'http://oglasicdn.novilist.hr/www/images/69abbfd210dccb7e7119da4b0501860c.jpg\' width=\'350\' height=\'1200\' alt=\'\' title=\'\' border=\'0\' /><"+"/a><"+"div id=\'beacon_6f5704bc04\' style=\'position: absolute; left: 0px; top: 0px; visibility: hidden;\'><"+"img src=\'http://oglasicdn.novilist.hr/www/delivery/lg.php?bannerid=3212&amp;campaignid=2615&amp;zoneid=10&amp;loc=http%3A%2F%2Fwww.novilist.hr%2FVijesti%2FRegija%2Fnode_1589%2FUvala-Grabrova-uskoro-ce-dobiti-novi-izgled-i-sadrzaje&amp;referer=https%3A%2F%2Fwww.google.com%2F&amp;cb=6f5704bc04\' width=\'0\' height=\'0\' alt=\'\' style=\'width: 0px; height: 0px;\' /><"+"/div>\n";
+OA_output['11'] = '';
+OA_output['11'] += "<"+"a href=\'http://oglasicdn.novilist.hr/www/delivery/ck.php?oaparams=2__bannerid=3211__zoneid=11__cb=d7e025b1e0__oadest=https%3A%2F%2F120godina.novilist.hr%2F\' target=\'_blank\'><"+"img src=\'http://oglasicdn.novilist.hr/www/images/61657945ccdfef14e2558a9250539a50.jpg\' width=\'350\' height=\'1200\' alt=\'\' title=\'\' border=\'0\' /><"+"/a><"+"div id=\'beacon_d7e025b1e0\' style=\'position: absolute; left: 0px; top: 0px; visibility: hidden;\'><"+"img src=\'http://oglasicdn.novilist.hr/www/delivery/lg.php?bannerid=3211&amp;campaignid=2615&amp;zoneid=11&amp;loc=http%3A%2F%2Fwww.novilist.hr%2FVijesti%2FRegija%2Fnode_1589%2FUvala-Grabrova-uskoro-ce-dobiti-novi-izgled-i-sadrzaje&amp;referer=https%3A%2F%2Fwww.google.com%2F&amp;cb=d7e025b1e0\' width=\'0\' height=\'0\' alt=\'\' style=\'width: 0px; height: 0px;\' /><"+"/div>\n";
+OA_output['12'] = '';
+OA_output['12'] += "<"+"div id=\'beacon_7a10e2f159\' style=\'position: absolute; left: 0px; top: 0px; visibility: hidden;\'><"+"img src=\'http://oglasicdn.novilist.hr/www/delivery/lg.php?bannerid=0&amp;campaignid=0&amp;zoneid=12&amp;loc=http%3A%2F%2Fwww.novilist.hr%2FVijesti%2FRegija%2Fnode_1589%2FUvala-Grabrova-uskoro-ce-dobiti-novi-izgled-i-sadrzaje&amp;referer=https%3A%2F%2Fwww.google.com%2F&amp;cb=7a10e2f159\' width=\'0\' height=\'0\' alt=\'\' style=\'width: 0px; height: 0px;\' /><"+"/div>\n";
+OA_output['13'] = '';
+OA_output['13'] += "<"+"div id=\'beacon_79714725e4\' style=\'position: absolute; left: 0px; top: 0px; visibility: hidden;\'><"+"img src=\'http://oglasicdn.novilist.hr/www/delivery/lg.php?bannerid=0&amp;campaignid=0&amp;zoneid=13&amp;loc=http%3A%2F%2Fwww.novilist.hr%2FVijesti%2FRegija%2Fnode_1589%2FUvala-Grabrova-uskoro-ce-dobiti-novi-izgled-i-sadrzaje&amp;referer=https%3A%2F%2Fwww.google.com%2F&amp;cb=79714725e4\' width=\'0\' height=\'0\' alt=\'\' style=\'width: 0px; height: 0px;\' /><"+"/div>\n";
+OA_output['14'] = '';
+OA_output['14'] += "<"+"div id=\'beacon_b431f7dd98\' style=\'position: absolute; left: 0px; top: 0px; visibility: hidden;\'><"+"img src=\'http://oglasicdn.novilist.hr/www/delivery/lg.php?bannerid=0&amp;campaignid=0&amp;zoneid=14&amp;loc=http%3A%2F%2Fwww.novilist.hr%2FVijesti%2FRegija%2Fnode_1589%2FUvala-Grabrova-uskoro-ce-dobiti-novi-izgled-i-sadrzaje&amp;referer=https%3A%2F%2Fwww.google.com%2F&amp;cb=b431f7dd98\' width=\'0\' height=\'0\' alt=\'\' style=\'width: 0px; height: 0px;\' /><"+"/div>\n";
+OA_output['15'] = '';
+OA_output['15'] += "<"+"div id=\'beacon_a3f27e90fe\' style=\'position: absolute; left: 0px; top: 0px; visibility: hidden;\'><"+"img src=\'http://oglasicdn.novilist.hr/www/delivery/lg.php?bannerid=0&amp;campaignid=0&amp;zoneid=15&amp;loc=http%3A%2F%2Fwww.novilist.hr%2FVijesti%2FRegija%2Fnode_1589%2FUvala-Grabrova-uskoro-ce-dobiti-novi-izgled-i-sadrzaje&amp;referer=https%3A%2F%2Fwww.google.com%2F&amp;cb=a3f27e90fe\' width=\'0\' height=\'0\' alt=\'\' style=\'width: 0px; height: 0px;\' /><"+"/div>\n";
+OA_output['16'] = '';
+OA_output['16'] += "<"+"div id=\'beacon_8d81be4d81\' style=\'position: absolute; left: 0px; top: 0px; visibility: hidden;\'><"+"img src=\'http://oglasicdn.novilist.hr/www/delivery/lg.php?bannerid=0&amp;campaignid=0&amp;zoneid=16&amp;loc=http%3A%2F%2Fwww.novilist.hr%2FVijesti%2FRegija%2Fnode_1589%2FUvala-Grabrova-uskoro-ce-dobiti-novi-izgled-i-sadrzaje&amp;referer=https%3A%2F%2Fwww.google.com%2F&amp;cb=8d81be4d81\' width=\'0\' height=\'0\' alt=\'\' style=\'width: 0px; height: 0px;\' /><"+"/div>\n";
+OA_output['17'] = '';
+OA_output['17'] += "<"+"div id=\'beacon_f6b579f9d6\' style=\'position: absolute; left: 0px; top: 0px; visibility: hidden;\'><"+"img src=\'http://oglasicdn.novilist.hr/www/delivery/lg.php?bannerid=0&amp;campaignid=0&amp;zoneid=17&amp;loc=http%3A%2F%2Fwww.novilist.hr%2FVijesti%2FRegija%2Fnode_1589%2FUvala-Grabrova-uskoro-ce-dobiti-novi-izgled-i-sadrzaje&amp;referer=https%3A%2F%2Fwww.google.com%2F&amp;cb=f6b579f9d6\' width=\'0\' height=\'0\' alt=\'\' style=\'width: 0px; height: 0px;\' /><"+"/div>\n";
+OA_output['18'] = '';
+OA_output['18'] += "<"+"div id=\'beacon_6594dfad60\' style=\'position: absolute; left: 0px; top: 0px; visibility: hidden;\'><"+"img src=\'http://oglasicdn.novilist.hr/www/delivery/lg.php?bannerid=0&amp;campaignid=0&amp;zoneid=18&amp;loc=http%3A%2F%2Fwww.novilist.hr%2FVijesti%2FRegija%2Fnode_1589%2FUvala-Grabrova-uskoro-ce-dobiti-novi-izgled-i-sadrzaje&amp;referer=https%3A%2F%2Fwww.google.com%2F&amp;cb=6594dfad60\' width=\'0\' height=\'0\' alt=\'\' style=\'width: 0px; height: 0px;\' /><"+"/div>\n";
+OA_output['19'] = '';
+OA_output['19'] += "<"+"div id=\'beacon_ca6ab13694\' style=\'position: absolute; left: 0px; top: 0px; visibility: hidden;\'><"+"img src=\'http://oglasicdn.novilist.hr/www/delivery/lg.php?bannerid=0&amp;campaignid=0&amp;zoneid=19&amp;loc=http%3A%2F%2Fwww.novilist.hr%2FVijesti%2FRegija%2Fnode_1589%2FUvala-Grabrova-uskoro-ce-dobiti-novi-izgled-i-sadrzaje&amp;referer=https%3A%2F%2Fwww.google.com%2F&amp;cb=ca6ab13694\' width=\'0\' height=\'0\' alt=\'\' style=\'width: 0px; height: 0px;\' /><"+"/div>\n";
+OA_output['20'] = '';
+OA_output['20'] += "<"+"img src=\'http://oglasicdn.novilist.hr/www/images/58427417b3c84af0a28a6b398854a4ea.png\' width=\'728\' height=\'90\' alt=\'\' title=\'\' border=\'0\' /><"+"div id=\'beacon_f2e8786026\' style=\'position: absolute; left: 0px; top: 0px; visibility: hidden;\'><"+"img src=\'http://oglasicdn.novilist.hr/www/delivery/lg.php?bannerid=3215&amp;campaignid=2621&amp;zoneid=1&amp;loc=http%3A%2F%2Fwww.novilist.hr%2FVijesti%2FRegija%2Fnode_1589%2FUvala-Grabrova-uskoro-ce-dobiti-novi-izgled-i-sadrzaje&amp;referer=https%3A%2F%2Fwww.google.com%2F&amp;cb=f2e8786026\' width=\'0\' height=\'0\' alt=\'\' style=\'width: 0px; height: 0px;\' /><"+"/div>\n";
+OA_output['21'] = '';
+OA_output['21'] += "<"+"img src=\'http://oglasicdn.novilist.hr/www/images/58427417b3c84af0a28a6b398854a4ea.png\' width=\'728\' height=\'90\' alt=\'\' title=\'\' border=\'0\' /><"+"div id=\'beacon_155ccf7021\' style=\'position: absolute; left: 0px; top: 0px; visibility: hidden;\'><"+"img src=\'http://oglasicdn.novilist.hr/www/delivery/lg.php?bannerid=3215&amp;campaignid=2621&amp;zoneid=1&amp;loc=http%3A%2F%2Fwww.novilist.hr%2FVijesti%2FRegija%2Fnode_1589%2FUvala-Grabrova-uskoro-ce-dobiti-novi-izgled-i-sadrzaje&amp;referer=https%3A%2F%2Fwww.google.com%2F&amp;cb=155ccf7021\' width=\'0\' height=\'0\' alt=\'\' style=\'width: 0px; height: 0px;\' /><"+"/div>\n";
+OA_output['22'] = '';
+OA_output['22'] += "<"+"div id=\'beacon_602c088408\' style=\'position: absolute; left: 0px; top: 0px; visibility: hidden;\'><"+"img src=\'http://oglasicdn.novilist.hr/www/delivery/lg.php?bannerid=0&amp;campaignid=0&amp;zoneid=22&amp;loc=http%3A%2F%2Fwww.novilist.hr%2FVijesti%2FRegija%2Fnode_1589%2FUvala-Grabrova-uskoro-ce-dobiti-novi-izgled-i-sadrzaje&amp;referer=https%3A%2F%2Fwww.google.com%2F&amp;cb=602c088408\' width=\'0\' height=\'0\' alt=\'\' style=\'width: 0px; height: 0px;\' /><"+"/div>\n";
+OA_output['23'] = '';
+OA_output['23'] += "<"+"div id=\'beacon_44e26ce16f\' style=\'position: absolute; left: 0px; top: 0px; visibility: hidden;\'><"+"img src=\'http://oglasicdn.novilist.hr/www/delivery/lg.php?bannerid=0&amp;campaignid=0&amp;zoneid=23&amp;loc=http%3A%2F%2Fwww.novilist.hr%2FVijesti%2FRegija%2Fnode_1589%2FUvala-Grabrova-uskoro-ce-dobiti-novi-izgled-i-sadrzaje&amp;referer=https%3A%2F%2Fwww.google.com%2F&amp;cb=44e26ce16f\' width=\'0\' height=\'0\' alt=\'\' style=\'width: 0px; height: 0px;\' /><"+"/div>\n";
+OA_output['24'] = '';
+OA_output['24'] += "<"+"div id=\'beacon_32cc7e70cd\' style=\'position: absolute; left: 0px; top: 0px; visibility: hidden;\'><"+"img src=\'http://oglasicdn.novilist.hr/www/delivery/lg.php?bannerid=0&amp;campaignid=0&amp;zoneid=24&amp;loc=http%3A%2F%2Fwww.novilist.hr%2FVijesti%2FRegija%2Fnode_1589%2FUvala-Grabrova-uskoro-ce-dobiti-novi-izgled-i-sadrzaje&amp;referer=https%3A%2F%2Fwww.google.com%2F&amp;cb=32cc7e70cd\' width=\'0\' height=\'0\' alt=\'\' style=\'width: 0px; height: 0px;\' /><"+"/div>\n";
+OA_output['25'] = '';
+OA_output['25'] += "<"+"iframe src=\"https://rijeka2020.eu/odbrojavanje/epkad-nl.html\" title=\"Rijeka 2020 Europska prijestolnica kulture\" allowtransparency=\"false\" width=\"300\" height=\"250\" scrolling=\"no\" frameborder=\"0\" style=\"border: none; overflow:hidden;\"><"+"/iframe><"+"div id=\'beacon_9a15215e2a\' style=\'position: absolute; left: 0px; top: 0px; visibility: hidden;\'><"+"img src=\'http://oglasicdn.novilist.hr/www/delivery/lg.php?bannerid=2483&amp;campaignid=2083&amp;zoneid=25&amp;loc=http%3A%2F%2Fwww.novilist.hr%2FVijesti%2FRegija%2Fnode_1589%2FUvala-Grabrova-uskoro-ce-dobiti-novi-izgled-i-sadrzaje&amp;referer=https%3A%2F%2Fwww.google.com%2F&amp;cb=9a15215e2a\' width=\'0\' height=\'0\' alt=\'\' style=\'width: 0px; height: 0px;\' /><"+"/div>\n";
+OA_output['26'] = '';
+OA_output['26'] += "<"+"div id=\'beacon_c380bdc555\' style=\'position: absolute; left: 0px; top: 0px; visibility: hidden;\'><"+"img src=\'http://oglasicdn.novilist.hr/www/delivery/lg.php?bannerid=0&amp;campaignid=0&amp;zoneid=26&amp;loc=http%3A%2F%2Fwww.novilist.hr%2FVijesti%2FRegija%2Fnode_1589%2FUvala-Grabrova-uskoro-ce-dobiti-novi-izgled-i-sadrzaje&amp;referer=https%3A%2F%2Fwww.google.com%2F&amp;cb=c380bdc555\' width=\'0\' height=\'0\' alt=\'\' style=\'width: 0px; height: 0px;\' /><"+"/div>\n";
+OA_output['27'] = '';
+OA_output['27'] += "<"+"div id=\'beacon_4942aa8786\' style=\'position: absolute; left: 0px; top: 0px; visibility: hidden;\'><"+"img src=\'http://oglasicdn.novilist.hr/www/delivery/lg.php?bannerid=0&amp;campaignid=0&amp;zoneid=27&amp;loc=http%3A%2F%2Fwww.novilist.hr%2FVijesti%2FRegija%2Fnode_1589%2FUvala-Grabrova-uskoro-ce-dobiti-novi-izgled-i-sadrzaje&amp;referer=https%3A%2F%2Fwww.google.com%2F&amp;cb=4942aa8786\' width=\'0\' height=\'0\' alt=\'\' style=\'width: 0px; height: 0px;\' /><"+"/div>\n";
+OA_output['28'] = '';
+OA_output['28'] += "<"+"div class=\"addesktoponly\"><"+"div id=\"novilist_billboard_970_v1\"><"+"script >\n";
+OA_output['28'] += "googletag.cmd.push(function() { googletag.display(\'novilist_billboard_970_v1\'); });\n";
+OA_output['28'] += "<"+"/script><"+"/div><"+"div id=\'beacon_e5ef8e8f09\' style=\'position: absolute; left: 0px; top: 0px; visibility: hidden;\'><"+"img src=\'http://oglasicdn.novilist.hr/www/delivery/lg.php?bannerid=1650&amp;campaignid=1010&amp;zoneid=28&amp;loc=http%3A%2F%2Fwww.novilist.hr%2FVijesti%2FRegija%2Fnode_1589%2FUvala-Grabrova-uskoro-ce-dobiti-novi-izgled-i-sadrzaje&amp;referer=https%3A%2F%2Fwww.google.com%2F&amp;cb=e5ef8e8f09\' width=\'0\' height=\'0\' alt=\'\' style=\'width: 0px; height: 0px;\' /><"+"/div><"+"/div>\n";
+OA_output['29'] = '';
+OA_output['29'] += "<"+"div id=\'beacon_a0cc3a57cf\' style=\'position: absolute; left: 0px; top: 0px; visibility: hidden;\'><"+"img src=\'http://oglasicdn.novilist.hr/www/delivery/lg.php?bannerid=0&amp;campaignid=0&amp;zoneid=29&amp;loc=http%3A%2F%2Fwww.novilist.hr%2FVijesti%2FRegija%2Fnode_1589%2FUvala-Grabrova-uskoro-ce-dobiti-novi-izgled-i-sadrzaje&amp;referer=https%3A%2F%2Fwww.google.com%2F&amp;cb=a0cc3a57cf\' width=\'0\' height=\'0\' alt=\'\' style=\'width: 0px; height: 0px;\' /><"+"/div>\n";
+OA_output['30'] = '';
+OA_output['30'] += "<"+"div id=\'beacon_c2f1763dff\' style=\'position: absolute; left: 0px; top: 0px; visibility: hidden;\'><"+"img src=\'http://oglasicdn.novilist.hr/www/delivery/lg.php?bannerid=0&amp;campaignid=0&amp;zoneid=30&amp;loc=http%3A%2F%2Fwww.novilist.hr%2FVijesti%2FRegija%2Fnode_1589%2FUvala-Grabrova-uskoro-ce-dobiti-novi-izgled-i-sadrzaje&amp;referer=https%3A%2F%2Fwww.google.com%2F&amp;cb=c2f1763dff\' width=\'0\' height=\'0\' alt=\'\' style=\'width: 0px; height: 0px;\' /><"+"/div>\n";
+OA_output['31'] = '';
+OA_output['31'] += "<"+"div id=\'beacon_59f6ad8209\' style=\'position: absolute; left: 0px; top: 0px; visibility: hidden;\'><"+"img src=\'http://oglasicdn.novilist.hr/www/delivery/lg.php?bannerid=0&amp;campaignid=0&amp;zoneid=31&amp;loc=http%3A%2F%2Fwww.novilist.hr%2FVijesti%2FRegija%2Fnode_1589%2FUvala-Grabrova-uskoro-ce-dobiti-novi-izgled-i-sadrzaje&amp;referer=https%3A%2F%2Fwww.google.com%2F&amp;cb=59f6ad8209\' width=\'0\' height=\'0\' alt=\'\' style=\'width: 0px; height: 0px;\' /><"+"/div>\n";
+OA_output['32'] = '';
+OA_output['32'] += "<"+"div id=\'beacon_20cf2a6160\' style=\'position: absolute; left: 0px; top: 0px; visibility: hidden;\'><"+"img src=\'http://oglasicdn.novilist.hr/www/delivery/lg.php?bannerid=0&amp;campaignid=0&amp;zoneid=32&amp;loc=http%3A%2F%2Fwww.novilist.hr%2FVijesti%2FRegija%2Fnode_1589%2FUvala-Grabrova-uskoro-ce-dobiti-novi-izgled-i-sadrzaje&amp;referer=https%3A%2F%2Fwww.google.com%2F&amp;cb=20cf2a6160\' width=\'0\' height=\'0\' alt=\'\' style=\'width: 0px; height: 0px;\' /><"+"/div>\n";
+OA_output['33'] = '';
+OA_output['33'] += "<"+"div id=\'beacon_d402e92484\' style=\'position: absolute; left: 0px; top: 0px; visibility: hidden;\'><"+"img src=\'http://oglasicdn.novilist.hr/www/delivery/lg.php?bannerid=0&amp;campaignid=0&amp;zoneid=33&amp;loc=http%3A%2F%2Fwww.novilist.hr%2FVijesti%2FRegija%2Fnode_1589%2FUvala-Grabrova-uskoro-ce-dobiti-novi-izgled-i-sadrzaje&amp;referer=https%3A%2F%2Fwww.google.com%2F&amp;cb=d402e92484\' width=\'0\' height=\'0\' alt=\'\' style=\'width: 0px; height: 0px;\' /><"+"/div>\n";
+OA_output['34'] = '';
+OA_output['34'] += "<"+"div id=\'beacon_60ec4d6eaa\' style=\'position: absolute; left: 0px; top: 0px; visibility: hidden;\'><"+"img src=\'http://oglasicdn.novilist.hr/www/delivery/lg.php?bannerid=0&amp;campaignid=0&amp;zoneid=34&amp;loc=http%3A%2F%2Fwww.novilist.hr%2FVijesti%2FRegija%2Fnode_1589%2FUvala-Grabrova-uskoro-ce-dobiti-novi-izgled-i-sadrzaje&amp;referer=https%3A%2F%2Fwww.google.com%2F&amp;cb=60ec4d6eaa\' width=\'0\' height=\'0\' alt=\'\' style=\'width: 0px; height: 0px;\' /><"+"/div>\n";
+OA_output['41'] = '';
+OA_output['41'] += "<"+"a href=\'http://oglasicdn.novilist.hr/www/delivery/ck.php?oaparams=2__bannerid=618__zoneid=41__cb=1c608b93e7__oadest=http%3A%2F%2Fnk-rijeka.hr\' target=\'_blank\'><"+"img src=\'http://oglasicdn.novilist.hr/www/images/4014e5e22a3699cb6b2a9b9b02fb4088.jpg\' width=\'300\' height=\'250\' alt=\'\' title=\'\' border=\'0\' /><"+"/a><"+"div id=\'beacon_1c608b93e7\' style=\'position: absolute; left: 0px; top: 0px; visibility: hidden;\'><"+"img src=\'http://oglasicdn.novilist.hr/www/delivery/lg.php?bannerid=618&amp;campaignid=478&amp;zoneid=41&amp;loc=http%3A%2F%2Fwww.novilist.hr%2FVijesti%2FRegija%2Fnode_1589%2FUvala-Grabrova-uskoro-ce-dobiti-novi-izgled-i-sadrzaje&amp;referer=https%3A%2F%2Fwww.google.com%2F&amp;cb=1c608b93e7\' width=\'0\' height=\'0\' alt=\'\' style=\'width: 0px; height: 0px;\' /><"+"/div>\n";
+OA_output['42'] = '';
+OA_output['42'] += "<"+"div id=\'beacon_a67008ed3d\' style=\'position: absolute; left: 0px; top: 0px; visibility: hidden;\'><"+"img src=\'http://oglasicdn.novilist.hr/www/delivery/lg.php?bannerid=0&amp;campaignid=0&amp;zoneid=42&amp;loc=http%3A%2F%2Fwww.novilist.hr%2FVijesti%2FRegija%2Fnode_1589%2FUvala-Grabrova-uskoro-ce-dobiti-novi-izgled-i-sadrzaje&amp;referer=https%3A%2F%2Fwww.google.com%2F&amp;cb=a67008ed3d\' width=\'0\' height=\'0\' alt=\'\' style=\'width: 0px; height: 0px;\' /><"+"/div>\n";
+OA_output['44'] = '';
+OA_output['44'] += "<"+"div id=\'beacon_e12616d776\' style=\'position: absolute; left: 0px; top: 0px; visibility: hidden;\'><"+"img src=\'http://oglasicdn.novilist.hr/www/delivery/lg.php?bannerid=0&amp;campaignid=0&amp;zoneid=44&amp;loc=http%3A%2F%2Fwww.novilist.hr%2FVijesti%2FRegija%2Fnode_1589%2FUvala-Grabrova-uskoro-ce-dobiti-novi-izgled-i-sadrzaje&amp;referer=https%3A%2F%2Fwww.google.com%2F&amp;cb=e12616d776\' width=\'0\' height=\'0\' alt=\'\' style=\'width: 0px; height: 0px;\' /><"+"/div>\n";
+OA_output['47'] = '';
+OA_output['47'] += "<"+"div id=\'beacon_487027d945\' style=\'position: absolute; left: 0px; top: 0px; visibility: hidden;\'><"+"img src=\'http://oglasicdn.novilist.hr/www/delivery/lg.php?bannerid=0&amp;campaignid=0&amp;zoneid=47&amp;loc=http%3A%2F%2Fwww.novilist.hr%2FVijesti%2FRegija%2Fnode_1589%2FUvala-Grabrova-uskoro-ce-dobiti-novi-izgled-i-sadrzaje&amp;referer=https%3A%2F%2Fwww.google.com%2F&amp;cb=487027d945\' width=\'0\' height=\'0\' alt=\'\' style=\'width: 0px; height: 0px;\' /><"+"/div>\n";
+OA_output['50'] = '';
+OA_output['50'] += "<"+"div id=\"novilist_300x250_mf_v1\">\n";
+OA_output['50'] += "<"+"script >\n";
+OA_output['50'] += "googletag.cmd.push(function() { googletag.display(\'novilist_300x250_mf_v1\'); });\n";
+OA_output['50'] += "<"+"/script>\n";
+OA_output['50'] += "<"+"/div><"+"div id=\'beacon_d3b7aa2fad\' style=\'position: absolute; left: 0px; top: 0px; visibility: hidden;\'><"+"img src=\'http://oglasicdn.novilist.hr/www/delivery/lg.php?bannerid=1368&amp;campaignid=1010&amp;zoneid=50&amp;loc=http%3A%2F%2Fwww.novilist.hr%2FVijesti%2FRegija%2Fnode_1589%2FUvala-Grabrova-uskoro-ce-dobiti-novi-izgled-i-sadrzaje&amp;referer=https%3A%2F%2Fwww.google.com%2F&amp;cb=d3b7aa2fad\' width=\'0\' height=\'0\' alt=\'\' style=\'width: 0px; height: 0px;\' /><"+"/div>\n";
+OA_output['53'] = '';
+OA_output['53'] += "<"+"!-- /88449691/novilist_bottom2 -->\n";
+OA_output['53'] += "<"+"div id=\'div-gpt-ad-1499942107299-2\' style=\'width:100%; text-align:center;\'>\n";
+OA_output['53'] += "<"+"script>\n";
+OA_output['53'] += "googletag.cmd.push(function() { googletag.display(\'div-gpt-ad-1499942107299-2\'); });\n";
+OA_output['53'] += "<"+"/script>\n";
+OA_output['53'] += "<"+"/div><"+"div id=\'beacon_71d4c0fe9e\' style=\'position: absolute; left: 0px; top: 0px; visibility: hidden;\'><"+"img src=\'http://oglasicdn.novilist.hr/www/delivery/lg.php?bannerid=1241&amp;campaignid=1010&amp;zoneid=53&amp;loc=http%3A%2F%2Fwww.novilist.hr%2FVijesti%2FRegija%2Fnode_1589%2FUvala-Grabrova-uskoro-ce-dobiti-novi-izgled-i-sadrzaje&amp;referer=https%3A%2F%2Fwww.google.com%2F&amp;cb=71d4c0fe9e\' width=\'0\' height=\'0\' alt=\'\' style=\'width: 0px; height: 0px;\' /><"+"/div>\n";
+OA_output['56'] = '';
+OA_output['56'] += "<"+"div id=\'beacon_16b2ebd244\' style=\'position: absolute; left: 0px; top: 0px; visibility: hidden;\'><"+"img src=\'http://oglasicdn.novilist.hr/www/delivery/lg.php?bannerid=0&amp;campaignid=0&amp;zoneid=56&amp;loc=http%3A%2F%2Fwww.novilist.hr%2FVijesti%2FRegija%2Fnode_1589%2FUvala-Grabrova-uskoro-ce-dobiti-novi-izgled-i-sadrzaje&amp;referer=https%3A%2F%2Fwww.google.com%2F&amp;cb=16b2ebd244\' width=\'0\' height=\'0\' alt=\'\' style=\'width: 0px; height: 0px;\' /><"+"/div>\n";
+OA_output['57'] = '';
+OA_output['57'] += "<"+"div style=\"margin-top:10px;text-align:center\">\n";
+OA_output['57'] += "<"+"!-- /88449691/novilist_top -->\n";
+OA_output['57'] += "<"+"div id=\'div-gpt-ad-1499942107299-0\' style=\'width:100%; text-align:center;\'>\n";
+OA_output['57'] += "<"+"script>\n";
+OA_output['57'] += "googletag.cmd.push(function() { googletag.display(\'div-gpt-ad-1499942107299-0\'); });\n";
+OA_output['57'] += "<"+"/script>\n";
+OA_output['57'] += "<"+"/div>\n";
+OA_output['57'] += "<"+"/div><"+"div id=\'beacon_f155305642\' style=\'position: absolute; left: 0px; top: 0px; visibility: hidden;\'><"+"img src=\'http://oglasicdn.novilist.hr/www/delivery/lg.php?bannerid=1332&amp;campaignid=1010&amp;zoneid=63&amp;loc=http%3A%2F%2Fwww.novilist.hr%2FVijesti%2FRegija%2Fnode_1589%2FUvala-Grabrova-uskoro-ce-dobiti-novi-izgled-i-sadrzaje&amp;referer=https%3A%2F%2Fwww.google.com%2F&amp;cb=f155305642\' width=\'0\' height=\'0\' alt=\'\' style=\'width: 0px; height: 0px;\' /><"+"/div>\n";
+OA_output['58'] = '';
+OA_output['58'] += "<"+"div id=\"novilist_320x100_mobile_mf\" style=\"position:relative\">\n";
+OA_output['58'] += "<"+"script >\n";
+OA_output['58'] += "googletag.cmd.push(function() { googletag.display(\'novilist_320x100_mobile_mf\'); });\n";
+OA_output['58'] += "<"+"/script><"+"/div><"+"div id=\'beacon_098382ef35\' style=\'position: absolute; left: 0px; top: 0px; visibility: hidden;\'><"+"img src=\'http://oglasicdn.novilist.hr/www/delivery/lg.php?bannerid=2819&amp;campaignid=1010&amp;zoneid=58&amp;loc=http%3A%2F%2Fwww.novilist.hr%2FVijesti%2FRegija%2Fnode_1589%2FUvala-Grabrova-uskoro-ce-dobiti-novi-izgled-i-sadrzaje&amp;referer=https%3A%2F%2Fwww.google.com%2F&amp;cb=098382ef35\' width=\'0\' height=\'0\' alt=\'\' style=\'width: 0px; height: 0px;\' /><"+"/div>\n";
+OA_output['59'] = '';
+OA_output['59'] += "<"+"script type=\"text/javascript\">\n";
+OA_output['59'] += "(function(){\n";
+OA_output['59'] += "var params = {\'member\':\'3380\',\'inv_code\':\'m.novilist.hr_ros_btf_300x250\',\'ext_inv_code\':\'hr\',\'size\':\'300x250\',\'promo_sizes\':\'320x240,320x50\',\'position\':\'below\',\'psa\':\'0\',\'st\':\'mobile\',\'env\':\'js\',\'section\':\'\',\'sub_section\':\'\',\'content_type\':\'\'};\n";
+OA_output['59'] += "params.cb = new Date/1000;\n";
+OA_output['59'] += "var src = (window.location.protocol == \'https:\' ? \'https://secure\' : \'http://ib\') + \'.adnxs.com/ttj?\';\n";
+OA_output['59'] += "for (var k in params) {\n";
+OA_output['59'] += "src += \'&amp;\' + encodeURIComponent(k) + \'=\' + encodeURIComponent(params[k]);\n";
+OA_output['59'] += "}\n";
+OA_output['59'] += "document.write(\'<"+"scr\' + \'ipt src=\"\' + src + \'\"><"+"/scr\' + \'ipt>\');\n";
+OA_output['59'] += "})();\n";
+OA_output['59'] += "<"+"/script><"+"div id=\'beacon_22be29b176\' style=\'position: absolute; left: 0px; top: 0px; visibility: hidden;\'><"+"img src=\'http://oglasicdn.novilist.hr/www/delivery/lg.php?bannerid=1353&amp;campaignid=1114&amp;zoneid=59&amp;loc=http%3A%2F%2Fwww.novilist.hr%2FVijesti%2FRegija%2Fnode_1589%2FUvala-Grabrova-uskoro-ce-dobiti-novi-izgled-i-sadrzaje&amp;referer=https%3A%2F%2Fwww.google.com%2F&amp;cb=22be29b176\' width=\'0\' height=\'0\' alt=\'\' style=\'width: 0px; height: 0px;\' /><"+"/div>\n";
+OA_output['60'] = '';
+OA_output['60'] += "<"+"div id=\'beacon_61e13e3ce1\' style=\'position: absolute; left: 0px; top: 0px; visibility: hidden;\'><"+"img src=\'http://oglasicdn.novilist.hr/www/delivery/lg.php?bannerid=0&amp;campaignid=0&amp;zoneid=60&amp;loc=http%3A%2F%2Fwww.novilist.hr%2FVijesti%2FRegija%2Fnode_1589%2FUvala-Grabrova-uskoro-ce-dobiti-novi-izgled-i-sadrzaje&amp;referer=https%3A%2F%2Fwww.google.com%2F&amp;cb=61e13e3ce1\' width=\'0\' height=\'0\' alt=\'\' style=\'width: 0px; height: 0px;\' /><"+"/div>\n";
+OA_output['61'] = '';
+OA_output['61'] += "<"+"div style=\"margin-top:10px;text-align:center\">\n";
+OA_output['61'] += "<"+"!-- /88449691/novilist_middle -->\n";
+OA_output['61'] += "<"+"div id=\'div-gpt-ad-1499942107299-1\' style=\'width:100%; text-align:center;\'>\n";
+OA_output['61'] += "<"+"script>\n";
+OA_output['61'] += "googletag.cmd.push(function() { googletag.display(\'div-gpt-ad-1499942107299-1\'); });\n";
+OA_output['61'] += "<"+"/script>\n";
+OA_output['61'] += "<"+"/div>\n";
+OA_output['61'] += "<"+"/div><"+"div id=\'beacon_904c62381f\' style=\'position: absolute; left: 0px; top: 0px; visibility: hidden;\'><"+"img src=\'http://oglasicdn.novilist.hr/www/delivery/lg.php?bannerid=1545&amp;campaignid=1010&amp;zoneid=61&amp;loc=http%3A%2F%2Fwww.novilist.hr%2FVijesti%2FRegija%2Fnode_1589%2FUvala-Grabrova-uskoro-ce-dobiti-novi-izgled-i-sadrzaje&amp;referer=https%3A%2F%2Fwww.google.com%2F&amp;cb=904c62381f\' width=\'0\' height=\'0\' alt=\'\' style=\'width: 0px; height: 0px;\' /><"+"/div>\n";
+OA_output['62'] = '';
+OA_output['62'] += "<"+"div class=\'inter-adtitle\'>Oglas<"+"/div><"+"div class=\'inter-wrapper\'><"+"div class=\'inter-bg-wrapper\'><"+"iframe src=\"http://oglasicdn.novilist.hr/www/_custom/nl/2/#clickTag=http://oglasicdn.novilist.hr/www/delivery/ck.php?oaparams=2__bannerid=3205__zoneid=62__cb=c63ea90f35__oadest=https%3A%2F%2F120godina.novilist.hr\" width=\"300\" height=\"600\" scrolling=\"no\" frameborder=\"0\"><"+"/iframe><"+"div id=\'beacon_c63ea90f35\' style=\'position: absolute; left: 0px; top: 0px; visibility: hidden;\'><"+"img src=\'http://oglasicdn.novilist.hr/www/delivery/lg.php?bannerid=3205&amp;campaignid=2614&amp;zoneid=62&amp;loc=http%3A%2F%2Fwww.novilist.hr%2FVijesti%2FRegija%2Fnode_1589%2FUvala-Grabrova-uskoro-ce-dobiti-novi-izgled-i-sadrzaje&amp;referer=https%3A%2F%2Fwww.google.com%2F&amp;cb=c63ea90f35\' width=\'0\' height=\'0\' alt=\'\' style=\'width: 0px; height: 0px;\' /><"+"/div><"+"/div><"+"/div><"+"div class=\'inter-adtitle\'>Scroll za nastavak ƒçitanja<"+"/div>\n";
+OA_output['63'] = '';
+OA_output['63'] += "<"+"div style=\"margin-top:10px;text-align:center\">\n";
+OA_output['63'] += "<"+"!-- /88449691/novilist_top -->\n";
+OA_output['63'] += "<"+"div id=\'div-gpt-ad-1499942107299-0\' style=\'width:100%; text-align:center;\'>\n";
+OA_output['63'] += "<"+"script>\n";
+OA_output['63'] += "googletag.cmd.push(function() { googletag.display(\'div-gpt-ad-1499942107299-0\'); });\n";
+OA_output['63'] += "<"+"/script>\n";
+OA_output['63'] += "<"+"/div>\n";
+OA_output['63'] += "<"+"/div><"+"div id=\'beacon_3ec5faddcc\' style=\'position: absolute; left: 0px; top: 0px; visibility: hidden;\'><"+"img src=\'http://oglasicdn.novilist.hr/www/delivery/lg.php?bannerid=1332&amp;campaignid=1010&amp;zoneid=63&amp;loc=http%3A%2F%2Fwww.novilist.hr%2FVijesti%2FRegija%2Fnode_1589%2FUvala-Grabrova-uskoro-ce-dobiti-novi-izgled-i-sadrzaje&amp;referer=https%3A%2F%2Fwww.google.com%2F&amp;cb=3ec5faddcc\' width=\'0\' height=\'0\' alt=\'\' style=\'width: 0px; height: 0px;\' /><"+"/div>\n";
+Ò`˛Ω      ^ú˝^ú˛A2∑M      ⁄    :http://oglasicdn.novilist.hr/www/delivery/spc.php?zones=1%7C2%7C3%7C4%7C5%7C6%7C7%7C8%7C9%7C10%7C11%7C12%7C13%7C14%7C15%7C16%7C17%7C18%7C19%7C20%7C21%7C22%7C23%7C24%7C25%7C26%7C27%7C28%7C29%7C30%7C31%7C32%7C33%7C34%7C41%7C42%7C44%7C47%7C50%7C53%7C56%7C57%7C58%7C59%7C60%7C61%7C62%7C63&source=&r=4440902&target=_blank&charset=UTF-8&loc=http%3A//www.novilist.hr/Vijesti/Regija/node_1589/Uvala-Grabrova-uskoro-ce-dobiti-novi-izgled-i-sadrzaje&referer=https%3A//www.google.com/ necko:classified 1 strongly-framed 1 request-method GET response-head HTTP/1.1 200 OK
+Date: Fri, 03 Jan 2020 19:58:54 GMT
+Server: Apache/2.4.23 (Unix) OpenSSL/1.0.1e-fips PHP/5.5.38
+X-Powered-By: PHP/5.5.38
+Pragma: no-cache
+Cache-Control: private, max-age=0, no-cache
+Expires: Mon, 26 Jul 1997 05:00:00 GMT
+Access-Control-Allow-Origin: *
+P3P: CP="CUR ADM OUR NOR STA NID"
+Content-Type: application/x-javascript; charset=UTF-8
+ original-response-headers Date: Fri, 03 Jan 2020 19:58:54 GMT
+Server: Apache/2.4.23 (Unix) OpenSSL/1.0.1e-fips PHP/5.5.38
+X-Powered-By: PHP/5.5.38
+Pragma: no-cache
+Cache-Control: private, max-age=0, no-cache
+Expires: Mon, 26 Jul 1997 05:00:00 GMT
+Access-Control-Allow-Origin: *
+P3P: CP="CUR ADM OUR NOR STA NID"
+Set-Cookie: OAID=aeb1ffff8a23eb15bbc4c3c05723d815; expires=Sat, 02-Jan-2021 19:58:54 GMT; Max-Age=31536000; path=/
+Connection: close
+Transfer-Encoding: chunked
+Content-Type: application/x-javascript; charset=UTF-8
+ ctid 2 eTLD1Access 1;0;390751381, uncompressed-len 0 net-response-time-onstart 122 net-response-time-onstop 156   {c

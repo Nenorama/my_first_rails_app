@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<application-state>
+  <context id="">
+    <application id="gnome-control-center.desktop" open-window-count="0" score="66" last-seen="1578162202"/>
+    <application id="firefox.desktop" open-window-count="1" score="1936" last-seen="1578423708"/>
+    <application id="nautilus.desktop" open-window-count="1" score="2" last-seen="1578423636"/>
+    <application id="org.gnome.Nautilus.desktop" open-window-count="0" score="116" last-seen="1578423661"/>
+    <application id="update-manager.desktop" open-window-count="0" score="2" last-seen="1577992661"/>
+    <application id="gnome-language-selector.desktop" open-window-count="0" score="5" last-seen="1577989041"/>
+    <application id="nautilus-folder-handler.desktop" open-window-count="0" score="0" last-seen="0"/>
+    <application id="code_code.desktop" open-window-count="0" score="38" last-seen="1577992612"/>
+    <application id="org.gnome.Terminal.desktop" open-window-count="0" score="468" last-seen="1578171417"/>
+    <application id="gkbd-keyboard-display.desktop" open-window-count="0" score="7" last-seen="1577991863"/>
+    <application id="gnome-initial-setup.desktop" open-window-count="0" score="8" last-seen="1577983210"/>
+    <application id="org.gnome.Totem.desktop" open-window-count="0" score="5" last-seen="1578423593"/>
+    <application id="org.gnome.Software.desktop" open-window-count="0" score="61" last-seen="1578423445"/>
+  </context>
+</application-state>
