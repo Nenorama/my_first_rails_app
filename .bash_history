@@ -81,3 +81,30 @@ ls -ld/var/log/installer
 ls -ld /var/log/installer
 exit
 ls -ld /var/log/installer
+pwd
+ls
+ls odin_on_rails/
+git init
+git add .
+git commit -m "initial commit"
+git remote add origin git@github.com:Nenorama/my_first_rails_app.git
+git push -u origin master
+exit
+ls -l ~/.ssh/id_*.pub
+rm -r /home/nenad/.ssh/id_rsa.pub 
+ls ~/.ssh/id_rsa.pub
+ssh-keygen -C dekic.nenad@gmail.com
+cat ~/.ssh/id_rsa.pub
+ssh -T git@github.com
+curl https://cli-assets.heroku.com/install.sh | sh
+heroku version
+heroku keys:add
+heroku create
+git remote
+ls
+ls odin_on_rails/
+ls
+ls odin_on_rails/my_first_rails_app/
+code .
+bundle install --without production
+exit

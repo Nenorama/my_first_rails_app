@@ -1,7 +1,9 @@
 {
     "telemetry.machineId": "58046c6c67ce354623bbf19b71ea31e5a6ad45fb66629b4b0e826b97286f0b64",
     "openedPathsList": {
-        "workspaces3": [],
+        "workspaces3": [
+            "file:///home/nenad"
+        ],
         "files2": []
     },
     "lastKnownMenubarData": {
@@ -39,6 +41,21 @@
                                 {
                                     "id": "workbench.action.reopenClosedEditor",
                                     "label": "&&Reopen Closed Editor"
+                                },
+                                {
+                                    "id": "vscode.menubar.separator"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "fsPath": "/home/nenad",
+                                        "external": "file:///home/nenad",
+                                        "path": "/home/nenad",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "/home/nenad"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -153,8 +170,7 @@
                     },
                     {
                         "id": "workbench.action.closeFolder",
-                        "label": "Close &&Folder",
-                        "enabled": false
+                        "label": "Close &&Folder"
                     },
                     {
                         "id": "workbench.action.closeWindow",
@@ -537,8 +553,7 @@
                 "items": [
                     {
                         "id": "workbench.action.navigateBack",
-                        "label": "&&Back",
-                        "enabled": false
+                        "label": "&&Back"
                     },
                     {
                         "id": "workbench.action.navigateForward",
@@ -547,8 +562,7 @@
                     },
                     {
                         "id": "workbench.action.navigateToLastEditLocation",
-                        "label": "&&Last Edit Location",
-                        "enabled": false
+                        "label": "&&Last Edit Location"
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -998,7 +1012,7 @@
             "workbench.action.openSettings": {
                 "label": "Ctrl+,",
                 "isNative": false,
-                "userSettingsLabel": "ctrl+,"
+                "userSettingsLabel": "ctrl+[Comma]"
             },
             "workbench.view.extensions": {
                 "label": "Ctrl+Shift+X",
@@ -1073,9 +1087,8 @@
                 "userSettingsLabel": "ctrl+shift+h"
             },
             "editor.action.commentLine": {
-                "label": "Ctrl+/",
-                "isNative": false,
-                "userSettingsLabel": "ctrl+/"
+                "label": "Ctrl+Shift+7",
+                "userSettingsLabel": "ctrl+shift+7"
             },
             "editor.action.blockComment": {
                 "label": "Ctrl+Shift+A",
@@ -1155,9 +1168,8 @@
                 "userSettingsLabel": "ctrl+j"
             },
             "workbench.action.zoomIn": {
-                "label": "Ctrl+=",
-                "isNative": false,
-                "userSettingsLabel": "ctrl+="
+                "label": "Ctrl+Shift+0",
+                "userSettingsLabel": "ctrl+shift+0"
             },
             "workbench.action.zoomOut": {
                 "label": "Ctrl+-",
@@ -1310,11 +1322,6 @@
                 "label": "Ctrl+G",
                 "userSettingsLabel": "ctrl+g"
             },
-            "editor.action.jumpToBracket": {
-                "label": "Ctrl+Shift+\\",
-                "isNative": false,
-                "userSettingsLabel": "ctrl+shift+\\"
-            },
             "editor.action.marker.nextInFiles": {
                 "label": "F8",
                 "userSettingsLabel": "f8"
@@ -1399,11 +1406,12 @@
     "themeBackground": "#1e1e1e",
     "windowsState": {
         "lastActiveWindow": {
-            "backupPath": "/home/nenad/.config/Code/Backups/1577982882952",
+            "folder": "file:///home/nenad",
+            "backupPath": "/home/nenad/.config/Code/Backups/1bab58e22bd5407ddb7189abc8c37d43",
             "uiState": {
                 "mode": 0,
                 "x": 448,
-                "y": 186,
+                "y": 216,
                 "width": 1024,
                 "height": 768
             }

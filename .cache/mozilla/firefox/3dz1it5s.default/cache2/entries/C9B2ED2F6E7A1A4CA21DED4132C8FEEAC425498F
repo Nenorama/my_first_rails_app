@@ -1,626 +1,0 @@
-<!DOCTYPE html>
-<!--[if lt IE 7 ]>
-<html class="ie ie6" lang="en"> <![endif]-->
-<!--[if IE 7 ]>
-<html class="ie ie7" lang="en"> <![endif]-->
-<!--[if IE 8 ]>
-<html class="ie ie8" lang="en"> <![endif]-->
-<!--[if (gte IE 9)|!(IE)]><!-->
-<html lang="en"> <!--<![endif]-->
-<head>
-    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
-
-    <meta name="description" content="Izračunaj udaljenost između gradova na karti.  Provjeri točnu kilometražu i udaljenosti među mjestima." />
-<title>Udaljenosti među gradovima i planer putovanja | Udaljenosti.com</title>
-
-    <link rel="shortcut icon" href="/images/favicon-udaljenosti.jpg"/>
-    <link rel="stylesheet" href="/css/base.css"/>
-    <link rel="stylesheet" href="/css/skeleton.css"/>
-    <link rel="stylesheet" href="/css/layout.css"/>
-
-    <!--[if lt IE 9]>
-    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-
-    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
-          integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
-          crossorigin=""/>
-
-    <script src="https://unpkg.com/leaflet@1.3.4/dist/leaflet.js"
-            integrity="sha512-nMMmRyTVoLYqjP9hrbed9S+FzjZHW5gY1TWCHA5ckwXZBadntCNs8kEqAWdrb9O7rxbCaA4lKTIWjDXZxflOcA=="
-            crossorigin=""></script>
-
-    <script type="text/javascript"
-            src="http://maps.google.com/maps/api/js?key=AIzaSyBtPxc_2Q65c71HyZfAhkfEegbNX2paTLE&libraries=geometry"></script>
-
-</head>
-
-<body>
-
-<div id="fb-root"></div>
-
-<script>(function (d, s, id) {
-
-        var js, fjs = d.getElementsByTagName(s)[0];
-
-        if (d.getElementById(id)) return;
-
-        js = d.createElement(s);
-        js.id = id;
-
-        js.src = "//connect.facebook.net/en_GB/all.js#xfbml=1";
-
-        fjs.parentNode.insertBefore(js, fjs);
-
-    }(document, 'script', 'facebook-jssdk'));
-
-</script>
-
-
-<div class="social_cont">
-
-    <div class="fb-like" data-href="http://www.udaljenosti.com" data-send="true" data-layout="box_count" data-width="50"
-         data-show-faces="false"></div>
-
-    <div class="g-plusone" data-size="tall" data-href="http://www.udaljenosti.com"></div>
-
-</div>
-
-<script type="text/javascript">
-
-    window.___gcfg = {lang: 'hr'};
-
-
-    (function () {
-
-        var po = document.createElement('script');
-        po.type = 'text/javascript';
-        po.async = true;
-
-        po.src = 'https://apis.google.com/js/plusone.js';
-
-        var s = document.getElementsByTagName('script')[0];
-        s.parentNode.insertBefore(po, s);
-
-    })();
-
-</script>
-
-
-<div class="container">
-
-<header>
-
-    <!--div class="sixteen columns"-->
-
-    <div class="seven columns alpha">
-
-
-        <a href="/" title="Udaljenosti između gradova">
-
-            <img src="/images/udaljenost_logo.png" alt="udaljenosti.com" class="logo"
-                 style="float:left;"/>
-
-        </a>
-
-        <div class="logo_txt">Udaljenosti među gradovima i planer putovanja</div>
-
-
-    </div>
-
-
-    <div class="nine columns omega bannerHeader">
-
-        <a style="margin:-25px 0px 5px 0px; display:block; color:#fff;" href="http://www.tripstance.com"><img style="margin:0px 5px -3px 0px;" src="/images/distance-calculator-english.jpg" />Distance Calculator</a>                <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-        <!-- Udaljenosti resp -->
-        <ins class="adsbygoogle"
-             style="display:block"
-             data-ad-client="ca-pub-6128056023993882"
-             data-ad-slot="3741052362"
-             data-ad-format="auto"></ins>
-        <script>
-            (adsbygoogle = window.adsbygoogle || []).push({});
-        </script>
-
-    </div>
-
-    <!--/div-->
-
-</header>
-
-<div class="clear"></div>
-
-<div class="container_inner">
-    <section style="position:relative;">
-
-                <div class="sixteen columns">
-
-            <div class="nine columns alpha">
-
-                
-                    <h1>Udaljenosti među gradovima i planer putovanja</h1>
-
-                
-
-            </div>
-
-            <div class="seven columns omega social">
-
-
-                <!-- AddThis Button BEGIN -->
-
-                <div class="addthis_toolbox addthis_default_style ">
-
-                    <a class="addthis_button_facebook_like" fb:like:layout="button_count"></a>
-
-                    <a class="addthis_button_tweet"></a>
-
-                    <a class="addthis_button_pinterest_pinit"></a>
-
-                    <a class="addthis_counter addthis_pill_style"></a>
-
-                </div>
-
-                <script type="text/javascript"
-                        src="http://s7.addthis.com/js/300/addthis_widget.js#pubid=xa-509c1b312f461806"></script>
-
-                <!-- AddThis Button END -->
-
-
-            </div>
-
-
-            
-        </div>
-
-        
-
-
-        <div class="sixteen columns">  <div class="twelve columns alpha">  <p>Izračunajte udaljenosti među gradovima i mjestima na karti jednostavnim upisivanjem naziva mjesta u polja    na tražilici. Za planer putovanja odaberite ikonu "Planer putovanja" s desne strane.    Za vremensku prognozu odaberite ikonu "Prognoza".</p></div></div><div class="sixteen columns">
-    <div class="src_cont">
-    	<form action="#" onsubmit="saveTo();initialize(); return false" class="locationsform">
-    		
-            <div class="three columns alpha">
-        
-              <label for="distancefrom">Od</label> <input type="text" size="20" id="distancefrom" name="distance" value="" title="" />
-        
-            </div>
-        	
-            <div class="three columns">
-        
-              <label for="distanceto">Do</label> <input type="text" size="20" id="distanceto" name="distance" value="" title="" />
-        
-            </div>
-        
-            <div class="one columns search">
-        
-              <input type="submit" id="hae" value=">" title="Udaljenost" alt="Udaljenost" />
-        
-            </div>
-        
-            <div class="three columns">
-        
-              <label for="totaldistancekm">Zračna udaljenost (km)</label>
-        
-              <input type="text" class="distanceinput" id="totaldistancekm" name="totaldistancekm" value="0" title="" />
-        
-            </div>
-        
-            <div class="three columns omega">
-        
-              <label for="totaldistancekm">Cestovna udaljenost (km)</label>
-        
-              <input type="text" class="distanceinput" id="totaldistancekmroute" name="totaldistancekmroute" value="0" title="" />
-        
-            </div>
-    		<div class="clear"></div>
-        </form>
-    
-    </div>
-</div>
-
-
-        <div class="sixteen columns">
-            <div class="twelve columns alpha">
-                <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-                <!-- Udaljenosti resp -->
-                <ins class="adsbygoogle"
-                     style="display:block"
-                     data-ad-client="ca-pub-6128056023993882"
-                     data-ad-slot="3741052362"
-                     data-ad-format="auto"></ins>
-                <script>
-                    (adsbygoogle = window.adsbygoogle || []).push({});
-                </script>
-            </div>
-            <div class="four columns omega">
-                <a class="apart" href="http://www.apartmanija.hr" rel="nofollow"><img
-                        src="http://www.udaljenosti.com/images/apartmani-hrvatska.jpg"></a>
-            </div>
-
-        </div>
-
-
-        <div class="sixteen columns">
-            <div class="thirteen columns alpha">
-                <div id="map">
-                                            <a href="#" onclick="initialize(); $(this).remove(); return false;">
-                            <img src="http://www.udaljenosti.com/images/karta_udaljenosti.jpg"/>
-                        </a>
-                                        
-                </div>
-
-            </div>
-
-
-            <div class="three columns omega">
-                
-                <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-                <!-- Udaljenosti resp -->
-                <ins class="adsbygoogle"
-                     style="display:block"
-                     data-ad-client="ca-pub-6128056023993882"
-                     data-ad-slot="3741052362"
-                     data-ad-format="auto"></ins>
-                <script>
-                    (adsbygoogle = window.adsbygoogle || []).push({});
-                </script>
-            </div>
-
-        </div>
-
-        <div class="sixteen columns">
-
-            <div class="txt_u_map">Projekt Udaljenosti.com je zamišljen kao pomoćni alat pri brzom, jednostavnom i točnom računanju zračne i cestovne udaljenosti između gradova i mjesta. Alatom Udaljenosti.com pokriva se računanje udaljenosti mjesta i gradova za slijedeće države:</div><div class="sixteen columns">  <div class="three columns alpha">    <a title="Karta Hrvatske" href="http://www.udaljenosti.com/hrvatska/">      <h2>Hrvatska</h2>      <img src="/images/udaljenosti-Hrvatska.jpg" alt="Udaljenosti i karta Hrvatske" />    </a>  </div>  <div class="three columns ">    <a title="Karta Bosne i Hercegovine" href="http://www.udaljenosti.com/bosna/">      <h2>Bosna i Hercegovina</h2>      <img src="/images/udaljenosti-Bosna.jpg" alt="Udaljenosti i karta Bosne i Hercegovine" />    </a>  </div>  <div class="three columns ">    <a href="#">      <a title="Karta Slovenije" href="http://www.udaljenosti.com/slovenija/">        <h2>Slovenija</h2>        <img src="/images/udaljenosti-Slovenija.jpg" alt="Udaljenosti i karta Slovenije" />      </a>  </div>  <div class="three columns ">    <a title="Karta Srbije" href="http://www.udaljenosti.com/srbija/">      <h2>Srbija</h2>      <img src="/images/udaljenosti-Srbija.jpg" alt="Udaljenosti i karta Srbije" />    </a>  </div>  <div class="three columns omega">    <a title="Karta Albanije" href="http://www.udaljenosti.com/albanija/">      <h2>Albanija</h2>      <img src="/images/udaljenosti-Albanija.jpg" alt="Udaljenosti i karta Albanije" />    </a>  </div></div><div class="sixteen columns">  <div class="three columns alpha">    <a title="Karta Kosova" href="http://www.udaljenosti.com/kosovo/">      <h2>Kosovo</h2>      <img src="/images/udaljenosti-Kosovo.jpg" alt="Udaljenosti i karta Kosova" width="160" height="150" />    </a>  </div>  <div class="three columns ">    <a title="Karta Italije" href="http://www.udaljenosti.com/italija/">      <h2>Italija</h2>      <img src="/images/udaljenosti-Italija.jpg" alt="Udaljenosti i karta Italije" />    </a>  </div>  <div class="three columns ">    <a title="Karta Austrije" title="Karta Austrije" href="http://www.udaljenosti.com/austrija/">      <h2>Austrija</h2>      <img src="/images/udaljenosti-Austria.jpg" alt="Udaljenosti i karta Austrije" />    </a>  </div>  <div class="three columns ">    <a title="Karta Mađarske" href="http://www.udaljenosti.com/madarska/">      <h2>Mađarska</h2>      <img src="/images/udaljenosti-Madarska.jpg" alt="Udaljenosti i karta Mađarske" />    </a>  </div>  <div class="three columns omega">    <a title="Karta Rumunjske" href="http://www.udaljenosti.com/rumunjska/">      <h2>Rumunjska</h2>      <img src="/images/udaljenosti-Rumunjska.jpg" alt="Udaljenosti i karta Rumunjske" />    </a>  </div></div><div class="sixteen columns">  <div class="three columns alpha">    <a title="Karta Bugarske" href="http://www.udaljenosti.com/bugarska/">      <h2>Bugarska</h2>      <img src="/images/udaljenosti-Bugarska.jpg" alt="Udaljenosti i karta Bugarske" />    </a>  </div>  <div class="three columns ">    <a title="Karta Njemačke" href="http://www.udaljenosti.com/njemacka/">      <h2>Njemačka</h2>      <img src="/images/udaljenosti-Njemacka.jpg" alt="Udaljenosti i karta Njemačke" />    </a>  </div>  <div class="three columns ">    <a title="Karta Nizozemske" href="http://www.udaljenosti.com/nizozemska/">      <h2>Nizozemska</h2>      <img src="/images/udaljenosti-Nizozemska.jpg" alt="Udaljenosti i karta Nizozemske" />    </a>  </div>  <div class="three columns ">    <a href="http://www.udaljenosti.com/kako-izbjeci-autoceste.html">    <h3>Kako izbjeći autoceste u Hrvatskoj</h3>    <img src="/images/Kako-izbjeci-autoceste.jpg" alt="Kako izbjeći autoceste u Hrvatskoj" />    </a>  </div>  <div class="three columns ">    <a href="http://www.udaljenosti.com/vozni-red-vlakova">    <h3>Vozni red vlakova</h3>    <img src="/images/vozni-red-vlakova.jpg" alt="Vozni red vlakova" />    </a>  </div></div>
-
-        </div>
-
-
-        <div class="clear"></div>
-
-
-    </section>
-</div>
-
-
-<footer>
-
-
-    <div class="sixteen columns">
-
-
-        <p>
-
-            &copy; 2012 Udaljenosti.com |
-
-            <a href="http://www.udaljenosti.com/about.html" title="O projektu">O projektu</a> |
-
-            <a href="http://www.udaljenosti.com/tos.html" title="Uvjeti korištenja">Uvjeti korištenja</a> |
-
-            <a href="http://www.udaljenosti.com/contact.php" title="Kontakt">Kontakt</a> |
-
-            Udaljenosti i kilometraža među gradovima. Planer putovanja i ostalo.
-        </p>
-
-
-    </div>
-
-
-</footer>
-</div>
-
-
-
-
-
-          <div
-      id="banner"
-      style="position: fixed;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    z-index: 1050;
-    background: rgb(0, 0, 0); 
-    background: rgba(0, 0, 0, 0.8);
-    overflow: hidden;
-    -webkit-overflow-scrolling: touch;
-    display: none;
-    outline: 0;"
-    >
-      <div
-        style="position: relative; width: 300px; height: 250px; left:50%; top:50%;margin-left:-150px; margin-top:-125px"
-      >
-        <a onclick="$('#banner').remove();" href="https://www.apartmanija.hr" target="_blank">
-          <img src="http://www.udaljenosti.com/images/apartmanija.jpg" />
-        </a>
-        <a onclick="$('#banner').remove();"
-          style="position: absolute; bottom: -30px; left: 0px; color: #fff; text-decoration: none;font-size: 14px; font-family: Verdana, Geneva, Tahoma, sans-serif"
-          href="#"
-          >x</a
-        >
-      </div>
-    </div>
-    <script type="text/javascript">
-      var isShowed = false;
-      function setCookie(c_name, value, exdays) {
-        var exdate = new Date();
-        exdate.setDate(exdate.getDate() + exdays);
-        var c_value =
-          escape(value) +
-          (exdays == null ? "" : "; expires=" + exdate.toUTCString());
-        document.cookie = c_name + "=" + c_value + ";path=/";
-      }
-      function showBanner() {
-        $("#banner").show();
-        setCookie("banner", 1, 1);
-        isShowed = true;
-      }
-      if (document.body.clientWidth > 768) {
-        document.addEventListener(
-          "mouseleave",
-          function(e) {
-            if (e.clientY < 10 && isShowed === false) {
-              showBanner();
-            }
-          },
-          true
-        );
-      } else {
-        setTimeout(function() {
-          if (isShowed === false) showBanner();
-        }, 4000);
-      }
-    </script>
-    
-<script type="text/javascript">
-
-function initialize() {
-    var page = 'site',
-        from = $('#distancefrom').val(),
-        to = $('#distanceto').val();
-        show = []; //lat, lon, zoom
-
-    if (from.length > 0 && to.length > 0) {
-        initializeG();
-    } else {
-        
-        show = [45.5, 15.58, 5];
-        showOsmMap();
-
-        
-        function showOsmMap() {
-
-            var mapOsm = L.map('map');
-
-            if (show.length)
-                mapOsm.setView([show[0], show[1]], show[2]);
-
-            L.tileLayer('https://{s}.tile.osm.org/{z}/{x}/{y}.png', {
-                id: 'mapbox.streets'
-            }).addTo(mapOsm);
-        }
-    }
-
-}
-
-var geocoder, map, addresses, results, dist, loaded = false, first = true;
-function openInNewTab(url) {
-    var win = window.open(url, '_blank');
-    win.focus();
-}
-function saveTo(){
-    address1 = document.getElementById("distancefrom").value;
-    address2 = document.getElementById("distanceto").value;
-
-    $.ajax({
-        type:"GET",
-        url:"/site/saveto",
-        data:{a1: address1, a2:address2},
-        contentType:"application/json; charset=utf-8",
-        dataType:"json",
-        success:function (response) {
-        },
-        failure:function (msg) {
-        }
-    });
-}
-function initializeG() {
-
-    address1 = document.getElementById("distancefrom").value;
-    address2 = document.getElementById("distanceto").value;
-
-    openInNewTab('https://www.google.com/maps/dir/'+address1+'/'+address2+'/');
-
-    return;
-    geocoder = new google.maps.Geocoder();
-
-    (distance(address1, address2));
-}
-
-function distance(add1, add2) {
-    if (!geocoder)
-        return 'Error, no geocoder';
-    addresses = new Array(2);
-    addresses[0] = add1;
-    addresses[1] = add2;
-    results = new Array(2);
-    results[0] = new Array(2);
-    results[1] = new Array(2);
-    results[0][0] = 0;
-    results[0][1] = 0;
-    results[1][0] = 0;
-    results[1][1] = 0.87;
-
-    if (first === true && true === false) {
-        first = false;
-        geocodedcity(1);
-    } else
-        geocoded(1);
-}
-
-function geocoded(i) {
-    if (addresses[i] === "") {
-        var mapOptions = {
-            zoom: 6,
-            center: new google.maps.LatLng(45.50, 15.58),
-            mapTypeId: google.maps.MapTypeId.ROADMAP
-        };
-        map = new google.maps.Map(document.getElementById("map"), mapOptions);
-    } else
-        geocoder.geocode({'address': addresses[i]}, function (res, status) {
-            if (status == google.maps.GeocoderStatus.OK) {
-                results[i][0] = parseFloat(res[0].geometry.location.lat());
-                results[i][1] = parseFloat(res[0].geometry.location.lng());
-                i--;
-
-                if (i >= 0)
-                    geocoded(i);
-                else {
-                    var latlng1 = new google.maps.LatLng(results[0][0], results[0][1]);
-                    var latlng2 = new google.maps.LatLng(results[1][0], results[1][1]);
-
-                    dist = google.maps.geometry.spherical.computeDistanceBetween(latlng1, latlng2) / 1000;
-                    document.getElementById('totaldistancekm').value = dist.toFixed(2);
-                    if (document.getElementById('udaljenostiair'))
-                        document.getElementById('udaljenostiair').innerHTML = dist.toFixed(2);
-                    showMap(latlng1, latlng2);
-                }
-            } else if (status == google.maps.GeocoderStatus.ZERO_RESULTS) {
-                var mapOptions = {
-                    zoom: 6,
-                    center: new google.maps.LatLng(45.50, 15.58),
-                    mapTypeId: google.maps.MapTypeId.ROADMAP
-                };
-                map = new google.maps.Map(document.getElementById("map"), mapOptions);
-            }
-        });
-}
-
-function geocodedcity(i) {
-    i = 0;
-    geocoder.geocode({'address': ''}, function (res, status) {
-        if (status == google.maps.GeocoderStatus.OK) {
-            results[i][0] = parseFloat(res[0].geometry.location.lat());
-            results[i][1] = parseFloat(res[0].geometry.location.lng());
-            i--;
-
-            if (i >= 0)
-                geocoded(i);
-
-            else {
-                var mapOptions = {
-                    zoom: 13,
-                    center: new google.maps.LatLng(results[0][0], results[0][1]),
-                    mapTypeId: google.maps.MapTypeId.ROADMAP
-                };
-
-                map = new google.maps.Map(document.getElementById("map"), mapOptions);
-            }
-        }
-    });
-}
-
-function showMap(location1, location2) {
-    latlng = new google.maps.LatLng((location1.lat() + location2.lat()) / 2, (location1.lng() + location2.lng()) / 2);
-    var mapOptions = {
-        zoom: 7,
-        center: latlng,
-        mapTypeId: google.maps.MapTypeId.ROADMAP
-    };
-
-    map = new google.maps.Map(document.getElementById("map"), mapOptions);
-
-    var flightPlanCoordinates = [
-        location1,
-        location2
-    ];
-
-
-    var flightPath = new google.maps.Polyline({
-        path: flightPlanCoordinates,
-        strokeColor: "#FF0000",
-        strokeOpacity: .5,
-        geodesic: true,
-        strokeWeight: 4
-    });
-
-    flightPath.setMap(map);
-
-    var flightPath = new google.maps.Polyline({
-        path: flightPlanCoordinates,
-        strokeColor: "#000000",
-        strokeOpacity: .5,
-        strokeWeight: 4
-    });
-
-    flightPath.setMap(map);
-
-    calcRoute();
-}
-
-var directionsDisplay = new google.maps.DirectionsRenderer();
-var directionsService = new google.maps.DirectionsService();
-
-function calcRoute() {
-    directionsDisplay.setMap(map);
-
-    var start = document.getElementById("distancefrom").value;
-    var end = document.getElementById("distanceto").value;
-    var request = {
-        origin: start,
-        destination: end,
-        travelMode: google.maps.TravelMode.DRIVING
-    };
-    directionsService.route(request, function (result, status) {
-        if (status == google.maps.DirectionsStatus.OK) {
-            directionsDisplay.setDirections(result);
-            km = result.routes[0].legs[0].distance.value / 1000;
-            document.getElementById('totaldistancekmroute').value = (km).toFixed(2);
-            if (document.getElementById('udaljenostiroute'))
-                document.getElementById('udaljenostiroute').innerHTML = (km).toFixed(2);
-
-            if (typeof inDb == 'function')
-                inDb();
-        }
-    });
-}
-
-var _gaq = _gaq || [];
-
-_gaq.push(['_setAccount', 'UA-36301230-1']);
-
-_gaq.push(['_trackPageview']);
-
-(function () {
-
-    var ga = document.createElement('script');
-    ga.type = 'text/javascript';
-    ga.async = true;
-
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-
-    var s = document.getElementsByTagName('script')[0];
-    s.parentNode.insertBefore(ga, s);
-
-})();
-</script>
-
-</body>
-
-</html>Z0Y��      ^��^�?A2��^��       :http://www.udaljenosti.com/ necko:classified 1 strongly-framed 1 request-method GET response-head HTTP/1.1 200 OK
-Date: Fri, 03 Jan 2020 20:07:24 GMT
-Server: Apache
-X-Powered-By: PHP/5.2.12
-Content-Type: text/html
-Cache-control: private
- original-response-headers Date: Fri, 03 Jan 2020 20:07:24 GMT
-Server: Apache
-X-Powered-By: PHP/5.2.12
-Transfer-Encoding: chunked
-Content-Type: text/html
-Set-Cookie: PH_HPXY_CHECK=s1; path=/
-Cache-control: private
- ctid 1 eTLD1Access 1;0;1517748388, uncompressed-len 0 net-response-time-onstart 277 net-response-time-onstop 281 predictor::resource-count 52 predictor::http://www.udaljenosti.com/css/base.css 1,1,1578082044,4097 predictor::http://www.udaljenosti.com/css/skeleton.css 1,1,1578082044,4097 predictor::http://www.udaljenosti.com/css/layout.css 1,1,1578082044,4097 predictor::https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js 1,1,1578082044,4096 predictor::https://unpkg.com/leaflet@1.3.4/dist/leaflet.css 1,1,1578082044,4096 predictor::https://unpkg.com/leaflet@1.3.4/dist/leaflet.js 1,1,1578082044,4096 predictor::http://maps.google.com/maps/api/js?key=AIzaSyBtPxc_2Q65c71HyZfAhkfEegbNX2paTLE&libraries=geometry 1,1,1578082044,4096 predictor::http://www.udaljenosti.com/images/udaljenost_logo.png 1,1,1578082044,4097 predictor::http://www.udaljenosti.com/images/distance-calculator-english.jpg 1,1,1578082044,4097 predictor::http://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js 1,1,1578082044,4096 predictor::http://s7.addthis.com/js/300/addthis_widget.js#pubid=xa-509c1b312f461806 1,1,1578082044,4096 predictor::http://www.udaljenosti.com/images/apartmani-hrvatska.jpg 1,1,1578082044,4097 predictor::http://www.udaljenosti.com/images/karta_udaljenosti.jpg 1,1,1578082044,4097 predictor::http://www.udaljenosti.com/images/udaljenosti-Hrvatska.jpg 1,1,1578082044,4097 predictor::http://www.udaljenosti.com/images/udaljenosti-Bosna.jpg 1,1,1578082044,4097 predictor::http://www.udaljenosti.com/images/udaljenosti-Slovenija.jpg 1,1,1578082044,4097 predictor::http://www.udaljenosti.com/images/udaljenosti-Srbija.jpg 1,1,1578082044,4097 predictor::http://www.udaljenosti.com/images/udaljenosti-Albanija.jpg 1,1,1578082044,4097 predictor::http://www.udaljenosti.com/images/udaljenosti-Kosovo.jpg 1,1,1578082044,4097 predictor::http://www.udaljenosti.com/images/udaljenosti-Italija.jpg 1,1,1578082044,4097 predictor::http://www.udaljenosti.com/images/udaljenosti-Austria.jpg 1,1,1578082044,4097 predictor::http://www.udaljenosti.com/images/udaljenosti-Madarska.jpg 1,1,1578082044,4097 predictor::http://www.udaljenosti.com/images/udaljenosti-Rumunjska.jpg 1,1,1578082044,4097 predictor::http://www.udaljenosti.com/images/udaljenosti-Bugarska.jpg 1,1,1578082044,4097 predictor::http://www.udaljenosti.com/images/udaljenosti-Njemacka.jpg 1,1,1578082044,4097 predictor::http://www.udaljenosti.com/images/udaljenosti-Nizozemska.jpg 1,1,1578082044,4097 predictor::http://www.udaljenosti.com/images/Kako-izbjeci-autoceste.jpg 1,1,1578082044,4097 predictor::http://www.udaljenosti.com/images/vozni-red-vlakova.jpg 1,1,1578082044,4097 predictor::http://www.udaljenosti.com/images/apartmanija.jpg 1,1,1578082044,4097 predictor::http://www.udaljenosti.com/images/bg.jpg 1,1,1578082044,4096 predictor::http://connect.facebook.net/en_GB/all.js#xfbml=1 1,1,1578082044,4096 predictor::https://apis.google.com/js/plusone.js 1,1,1578082044,4097 predictor::http://www.udaljenosti.com/images/bg_s.png 1,1,1578082044,4096 predictor::https://apis.google.com/_/scs/apps-static/_/js/k=oz.gapi.hr.ulnssE4gWmc.O/m=plusone/rt=j/sv=1/d=1/ed=1/am=AQc/rs=AGLTcCO0bdYUwOjjSe3G1TtOrYZj0NMBaw/cb=gapi.loaded_0 1,1,1578082044,4096 predictor::https://apis.google.com/_/scs/apps-static/_/js/k=oz.gapi.hr.ulnssE4gWmc.O/m=auth/exm=plusone/rt=j/sv=1/d=1/ed=1/am=AQc/rs=AGLTcCO0bdYUwOjjSe3G1TtOrYZj0NMBaw/cb=gapi.loaded_1 1,1,1578082044,4096 predictor::https://z.moatads.com/addthismoatframe568911941483/moatframe.js 1,1,1578082044,4096 predictor::http://www.google-analytics.com/ga.js 1,1,1578082044,4096 predictor::https://v1.addthisedge.com/live/boost/xa-509c1b312f461806/_ate.track.config_resp 1,1,1578082044,4096 predictor::https://m.addthis.com/live/red_lojson/300lo.json?si=5e0f9efd4cf3ee88&bkl=0&bl=1&pdt=376&sid=5e0f9efd4cf3ee88&pub=xa-509c1b312f461806&rev=v8.28.1-wp&ln=en&pc=men&cb=0&ab=-&dp=www.udaljenosti.com&dr=www.google.com&fp=&fr=&of=0&pd=0&irt=0&vcl=0&md=0&ct=1&tct=0&abt=0&cdn=0&pi=1&rb=4&gen=100&chr=UTF-8&colc=1578082045431&jsl=33&uvs=5e0f9efdfd5ece6b000&skipb=1&callback=addthis.cbs.jsonp__068235425323462270 1,1,1578082044,4096 predictor::http://connect.facebook.net/en_US/sdk.js#version=v2.6 1,1,1578082044,4096 predictor::http://platform.twitter.com/widgets.js 1,1,1578082044,4096 predictor::https://s7.addthis.com/static/counter.1e8689847c822d3197cd.js 1,1,1578082044,4096 predictor::https://connect.facebook.net/en_GB/all.js?hash=38266bcdc10f95c5b93112f56e58783a 1,1,1578082044,4096 predictor::https://adservice.google.hr/adsid/integrator.js?domain=www.udaljenosti.com 1,1,1578082044,4096 predictor::https://adservice.google.com/adsid/integrator.js?domain=www.udaljenosti.com 1,1,1578082044,4096 predictor::https://pagead2.googlesyndication.com/pagead/js/r20191205/r20190131/show_ads_impl.js 1,1,1578082044,4096 predictor::https://api-public.addthis.com/url/shares.json?url=http%3A%2F%2Fwww.udaljenosti.com%2F&callback=_ate.cbs.sc_httpwwwudaljenosticom0 1,1,1578082044,4096 predictor::https://www.googletagservices.com/activeview/js/current/osd.js?cb=%2Fr20100101 1,1,1578082044,4096 predictor::https://platform.twitter.com/js/button.550007e6cc79c00bac51111d8131d860.js 1,1,1578082044,4096 predictor::http://maps.google.com/maps-api-v3/api/js/39/5/common.js 1,1,1578082044,4096 predictor::http://maps.google.com/maps-api-v3/api/js/39/5/util.js 1,1,1578082044,4096 predictor::http://maps.googleapis.com/maps/api/js/AuthenticationService.Authenticate?1shttp%3A%2F%2Fwww.udaljenosti.com%2F&4sAIzaSyBtPxc_2Q65c71HyZfAhkfEegbNX2paTLE&callback=_xdc_._zdz18f&key=AIzaSyBtPxc_2Q65c71HyZfAhkfEegbNX2paTLE&token=96957 1,1,1578082044,4096   W@
